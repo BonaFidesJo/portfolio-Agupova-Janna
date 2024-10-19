@@ -1001,8 +1001,10 @@ header {
   }
 }
 .work__body {
-  column-gap: 30px;
-  row-gap: 30px;
+     display: grid;
+		column-gap:30px;
+		row-gap: 50px;
+
 }
 .work__posititon {
   font-size: 25px;
