@@ -960,7 +960,13 @@ header {
   align-items: center;
   height: 100%;
   line-height: 110%;
+
 }
+
+.skill__item p{
+margin-bottom: 5px;
+}
+
 .skill__item::before {
 /*   content: "✏️"; */
 /*   padding-right: 10px; */
