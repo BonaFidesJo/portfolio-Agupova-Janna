@@ -956,7 +956,7 @@ header {
   font-size: 25px;
 }
 .skill__item {
-  display: flex;
+/*   display: flex; */
   align-items: center;
   height: 100%;
   line-height: 110%;
