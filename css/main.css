@@ -962,8 +962,8 @@ header {
   line-height: 110%;
 }
 .skill__item::before {
-  content: "✏️";
-  padding-right: 10px;
+/*   content: "✏️"; */
+/*   padding-right: 10px; */
 }
 .skill__item:not(:last-child) {
   margin-bottom: 15px;
