@@ -665,7 +665,7 @@ position: relative;
 	background-color: rgb(33,33,33,0.8);
 	transition: all 0.3s;
 }
-.item-project__desc.li{
+.item-project__desc li{
 	margin: 10%
 }
 item-project__desc:hover{opacity: 1;}
