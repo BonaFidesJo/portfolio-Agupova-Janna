@@ -652,23 +652,26 @@ header {
   animation: pulse 1.7s infinite;
   box-shadow: 0px 0px 0px 3px rgb(81, 83, 83);
   flex: 1 1 100%;
-
-position: relative;
+  position: relative;
 }
-.item-project__desc{
-	opacity: 0;
-	position: absolute;
-	top: 0px;
-	left:0;
-	width: 100%;
-	height: 100%;
-	background-color: rgb(33,33,33,0.8);
-	transition: all 0.3s;
+.item-project__desc {
+  opacity: 0;
+  position: absolute;
+  top: 0px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(33, 33, 33, 0.8);
+  transition: all 0.3s;
 }
-.item-project__desc li{
-	margin: 10%;
+.item-project__desc li {
+  margin: 10%;
 }
-item-project__desc:hover{opacity: 1;}
+@media (any-hover: hover) {
+  .item-project__desc:hover {
+    opacity: 1;
+  }
+}
 
 @media (max-width: 710px) {
   .item-project__image {
