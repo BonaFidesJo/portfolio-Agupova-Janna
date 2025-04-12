@@ -666,7 +666,7 @@ position: relative;
 	transition: all 0.3s;
 }
 .item-project__desc li{
-	margin: 10%
+	margin: 10%;
 }
 item-project__desc:hover{opacity: 1;}
 
