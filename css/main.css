@@ -668,13 +668,7 @@ position: relative;
 .item-project__desc.li{
 	margin: 10%
 }
-@media(any-hover:hover){
-		&:hover{
-			item-project__desc{
-			opacity: 1;
-			}
-		}
-		}
+item-project__desc:hover{opacity: 1;}
 
 @media (max-width: 710px) {
   .item-project__image {
