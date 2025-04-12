@@ -665,7 +665,7 @@ header {
   transition: all 0.3s;
 }
 .item-project__desc li {
-  margin: 10%;
+  margin: 8% 10%;
 }
 @media (any-hover: hover) {
   .item-project__desc:hover {
