@@ -882,7 +882,7 @@ header {
 }
 .description-about__text {
   line-height: 120%;
-  font-size: 28px;
+  font-size: 25.5px;
 }
 @media (max-width: 1212px) {
   .description-about__text {
